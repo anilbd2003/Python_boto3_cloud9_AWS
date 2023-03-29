@@ -1,32 +1,47 @@
 # Python_boto3_cloud9_AWS
-automate using AWS SDK for python (boto3)
+Automate using AWS SDK for python (boto3), cloud9, python script. 
+
 AWS Cloud9:
+
 It is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. 
 It includes a code editor, debugger, and terminal. Cloud9 comes with a terminal that includes sudo privileges to the managed Amazon
 EC2 instance that is hosting your development environment and a preauthenticated AWS Command Line Interface.
 Cloud9 has two types of development environments: 
+
 •	 EC2 environments (cloud9 creates EC2 instance & manage lifecycle, auto set AWS CLI)  
+
 •	SSH environments (use your own server, manually configure instance, manual AWS CLI set up)
 
 pip (package manager)
+
 pip is a package-management system written in Python and is used to install and manage software packages. Pip connects to an online 
 repository of public packages, called the Python Package Index.
 
 pip install some-package-name  
+
 pip uninstall some-package-name  
 
 Boto3
+
 It is AWS Software Development Kit (SDK) for Python, which allows Python developers to write software that makes use of services like Amazon 
 S3 and Amazon EC2. Boto3 is maintained and published by AWS.  After installing boto3, you set up credentials (in e.g. ~/.aws/credentials). 
+
  [default]
+ 
 aws_access_key_id = YOUR_KEY
+
 aws_secret_access_key = YOUR_SECRET
+
 Then, set up a default region (in e.g. ~/.aws/config):
+
 [default]
+
 region=us-east-1
+
 For Cloud9, you don’t need to worry about credentials set up (it comes with preauthenticated AWS Command Line Interface) 
 
 Steps: 
+
 1)	Login to AWS management console.
 
 2)	Open Cloud9 -------Create environment
