@@ -25,11 +25,12 @@ pip uninstall some-package-name
 It is AWS Software Development Kit (SDK) for Python, which allows Python developers to write software that makes use of services like Amazon 
 S3 and Amazon EC2. Boto3 is maintained and published by AWS.  After installing boto3, you set up credentials (in e.g. ~/.aws/credentials). 
 
- [default]
+[default]
 aws_access_key_id = YOUR_KEY
 aws_secret_access_key = YOUR_SECRET
 
 Then, set up a default region (in e.g. ~/.aws/config):
+
 [default]
 region=us-east-1
 For Cloud9, you don’t need to worry about credentials set up (it comes with preauthenticated AWS Command Line Interface) 
