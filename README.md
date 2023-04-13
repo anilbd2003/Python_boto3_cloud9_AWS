@@ -53,7 +53,8 @@ For Cloud9, you don’t need to worry about credentials set up (it comes with pr
       b.	sudo amazon-linux-extras install python3.8 {for amazon linux 2}
       
       c.	python3.8 -V
-7)	Install pip 
+7)	Install pip
+
       a.	curl -o https://bootstrap.pypa.io/get-pip.py   OR
       
       a.	wget https://bootstrap.pypa.io/get-pip.py
